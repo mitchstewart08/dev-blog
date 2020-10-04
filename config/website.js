@@ -7,7 +7,7 @@ module.exports = {
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription: 'Professional and personal blog of Mitch Stewart, a Texas based full-stack Javascript developer',
-  author: 'Author', // Author for schemaORGJSONLD
+  author: 'Mitchell Stewart', // Author for schemaORGJSONLD
   organization: '',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
