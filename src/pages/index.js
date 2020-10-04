@@ -33,11 +33,15 @@ const Hero = () => {
             z-index: 5;
             line-height: 1.5;
             margin: 0;
-            max-width: ${rhythm(15)};
+            max-width: ${rhythm(20)};
           `}
         >
-          Your blog says the things you want to say.
+          Howdy! <span role="img" aria-lable="wave" >👋🏻</span> I'm Mitch, a javascript developer
         </h1>
+        <p css={
+          css`
+            margin-top: 1rem;
+          `}>I am a full-stack developer that specializes in the front-end. This is a blog where I chronicle my journey</p>
       </Container>
       <div
         css={css`

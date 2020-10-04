@@ -13,7 +13,7 @@ module.exports = {
     title: config.siteTitle,
     twitterHandle: config.twitterHandle,
     description: config.siteDescription,
-    keywords: ['Video Blogger'],
+    keywords: ['Developer', 'Javascript Blog', 'Developer Blog'],
     canonicalUrl: config.siteUrl,
     image: config.siteLogo,
     author: {
