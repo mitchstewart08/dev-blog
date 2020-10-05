@@ -27,12 +27,12 @@ const Hero = () => {
         `}
       >
         <h1 tw="text-white">
-          Howdy!<span role="img" aria-lable="wave" >👋</span><span role="img" aria-label="cowboy">🤠</span> I'm Mitch, a javascript developer based in Texas
+          Howdy, I'm Mitch!<span role="img" aria-lable="wave" >👋</span><span role="img" aria-label="cowboy">🤠</span> 
         </h1>
         <p css={
           css`
             margin-top: 1rem;
-          `}>I am a full-stack developer that specializes in the front-end. This is a blog where I chronicle my journey</p>
+          `}>I am a full-stack developer based out of Texas and this is a digital garden blog where I document my thoughts on development.</p>
       </Container>
       <div
         css={css`
