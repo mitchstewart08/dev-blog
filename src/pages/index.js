@@ -26,17 +26,8 @@ const Hero = () => {
           flex-direction: column;
         `}
       >
-        <h1
-          css={css`
-            color: ${theme.colors.white};
-            position: relative;
-            z-index: 5;
-            line-height: 1.5;
-            margin: 0;
-            max-width: ${rhythm(20)};
-          `}
-        >
-          Howdy! <span role="img" aria-lable="wave" >👋🏻</span> I'm Mitch, a javascript developer
+        <h1 tw="text-white">
+          Howdy!<span role="img" aria-lable="wave" >👋</span><span role="img" aria-label="cowboy">🤠</span> I'm Mitch, a javascript developer based in Texas
         </h1>
         <p css={
           css`
